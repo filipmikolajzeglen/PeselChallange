@@ -6,13 +6,11 @@ public class Pesel {
     private int resultOfMultiplication;
     private int indexOfThePeselNumber = 0;
 
-    // CONSTRUCOTR
     Pesel(String enterNrPesel)
     {
         this.nrPesel = enterNrPesel;
     }
 
-    // GETTER AND SETTER
     public String getNrPesel() { return nrPesel; }
     public void setNrPesel(String nrPesel) { this.nrPesel = nrPesel; }
 
@@ -48,7 +46,6 @@ public class Pesel {
         }
     }
 
-    // SIMPLE METHOD TO MULTIPLICATION
     public int multiplication(int numberToMultiplication, int multiplicationBy) {
         int result = numberToMultiplication * multiplicationBy;
         return result;
